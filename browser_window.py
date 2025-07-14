@@ -18,7 +18,7 @@ class BrowserWindow(QMainWindow):
         self.browser_tabs.tabCloseRequested.connect(self.close_tab)
 
         # 添加初始标签页
-        self.add_new_tab(QUrl("https://www.google.com"), "主页")
+        self.add_new_tab(QUrl("https://www.bing.com"), "主页")
 
         self.setCentralWidget(self.browser_tabs)
 
@@ -67,7 +67,7 @@ class BrowserWindow(QMainWindow):
     def add_new_tab(self, qurl=None, label="新标签页"):
         """添加新标签页"""
         if qurl is None:
-            qurl = QUrl("https://www.google.com")
+            qurl = QUrl("https://www.bing.com")
 
         browser = QWebEngineView()
         browser.setUrl(qurl)
@@ -91,7 +91,7 @@ class BrowserWindow(QMainWindow):
 
     def navigate_home(self):
         """导航到主页"""
-        self.current_browser().setUrl(QUrl("https://www.google.com"))
+        self.current_browser().setUrl(QUrl("https://www.bing.com"))
 
     def navigate_to_url(self):
         """导航到地址栏中的URL"""
