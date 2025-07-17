@@ -1,5 +1,7 @@
 # SaFan
 
+**If you don't recognize Chinese, please click on the "README-en.md" file in the source code to view the English version.**
+
 ### 项目概述
 
 SaFan 是一个基于 Python 的浏览器项目，这是我的第一个项目，由DeepSeek AI 协助制作(好吧貌似全都是)。目前该项目尚不完善，期待大家参与修改和完善
