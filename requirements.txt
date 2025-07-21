@@ -1,0 +1,10 @@
+packaging==25.0
+ply==3.11
+PySide2==5.15.2.1
+PySide6==6.5.2
+PySide6-Addons==6.5.2
+PySide6-Essentials==6.5.2
+shiboken2==5.15.2.1
+shiboken6==6.5.2
+sip==6.6.2
+toml==0.10.2
